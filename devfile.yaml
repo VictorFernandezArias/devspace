@@ -7,4 +7,5 @@ components:
     container:
       image: quay.io/vifernan/ocp-ansible:latest
       memoryLimit: 3G
+      cpuLimit: '1'
       mountSources: true
