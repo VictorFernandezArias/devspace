@@ -1,0 +1,10 @@
+schemaVersion: 2.2.0
+metadata:
+  name: ansible-automation-space
+
+components:
+  - name: ansible-runtime
+    container:
+      image: quay.io/vifernan/ocp-ansible:latest
+      memoryLimit: 3G
+      mountSources: true
