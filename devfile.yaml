@@ -6,6 +6,7 @@ components:
   - name: ansible-runtime
     container:
       image: quay.io/vifernan/dev-ocp-ansible:latest
+      imagePullPolicy: Always
       memoryLimit: 3G
       cpuLimit: '1'
       mountSources: true
