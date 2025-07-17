@@ -9,3 +9,6 @@ components:
       memoryLimit: 3G
       cpuLimit: '1'
       mountSources: true
+      attributes:
+        editor:
+          type: vscode
